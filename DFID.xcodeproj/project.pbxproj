@@ -1,0 +1,284 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D8BCA8F716170980009990AA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8BCA8F616170980009990AA /* UIKit.framework */; };
+		D8BCA8F916170980009990AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8BCA8F816170980009990AA /* Foundation.framework */; };
+		D8BCA8FB16170980009990AA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8BCA8FA16170980009990AA /* CoreGraphics.framework */; };
+		D8BCA90116170980009990AA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D8BCA8FF16170980009990AA /* InfoPlist.strings */; };
+		D8BCA90316170980009990AA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D8BCA90216170980009990AA /* main.m */; };
+		D8BCA90716170980009990AA /* THAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D8BCA90616170980009990AA /* THAppDelegate.m */; };
+		D8BCA90A16170980009990AA /* THViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8BCA90916170980009990AA /* THViewController.m */; };
+		D8BCA90D16170980009990AA /* THViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8BCA90B16170980009990AA /* THViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D8BCA8F216170980009990AA /* DFID.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DFID.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8BCA8F616170980009990AA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D8BCA8F816170980009990AA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D8BCA8FA16170980009990AA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D8BCA8FE16170980009990AA /* DFID-Info.plist */ = {isa = PBXFileReference; path = "DFID-Info.plist"; sourceTree = "<group>"; };
+		D8BCA90016170980009990AA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D8BCA90216170980009990AA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D8BCA90416170980009990AA /* DFID-Prefix.pch */ = {isa = PBXFileReference; path = "DFID-Prefix.pch"; sourceTree = "<group>"; };
+		D8BCA90516170980009990AA /* THAppDelegate.h */ = {isa = PBXFileReference; path = THAppDelegate.h; sourceTree = "<group>"; };
+		D8BCA90616170980009990AA /* THAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = THAppDelegate.m; sourceTree = "<group>"; };
+		D8BCA90816170980009990AA /* THViewController.h */ = {isa = PBXFileReference; path = THViewController.h; sourceTree = "<group>"; };
+		D8BCA90916170980009990AA /* THViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = THViewController.m; sourceTree = "<group>"; };
+		D8BCA90C16170980009990AA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/THViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D8BCA8EF16170980009990AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8BCA8F716170980009990AA /* UIKit.framework in Frameworks */,
+				D8BCA8F916170980009990AA /* Foundation.framework in Frameworks */,
+				D8BCA8FB16170980009990AA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D8BCA8E716170980009990AA = {
+			isa = PBXGroup;
+			children = (
+				D8BCA8FC16170980009990AA /* DFID */,
+				D8BCA8F516170980009990AA /* Frameworks */,
+				D8BCA8F316170980009990AA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D8BCA8F316170980009990AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D8BCA8F216170980009990AA /* DFID.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D8BCA8F516170980009990AA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D8BCA8F616170980009990AA /* UIKit.framework */,
+				D8BCA8F816170980009990AA /* Foundation.framework */,
+				D8BCA8FA16170980009990AA /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D8BCA8FC16170980009990AA /* DFID */ = {
+			isa = PBXGroup;
+			children = (
+				D8BCA90516170980009990AA /* THAppDelegate.h */,
+				D8BCA90616170980009990AA /* THAppDelegate.m */,
+				D8BCA90816170980009990AA /* THViewController.h */,
+				D8BCA90916170980009990AA /* THViewController.m */,
+				D8BCA90B16170980009990AA /* THViewController.xib */,
+				D8BCA8FD16170980009990AA /* Supporting Files */,
+			);
+			path = DFID;
+			sourceTree = "<group>";
+		};
+		D8BCA8FD16170980009990AA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D8BCA8FE16170980009990AA /* DFID-Info.plist */,
+				D8BCA8FF16170980009990AA /* InfoPlist.strings */,
+				D8BCA90216170980009990AA /* main.m */,
+				D8BCA90416170980009990AA /* DFID-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D8BCA8F116170980009990AA /* DFID */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8BCA91016170981009990AA /* Build configuration list for PBXNativeTarget "DFID" */;
+			buildPhases = (
+				D8BCA8EE16170980009990AA /* Sources */,
+				D8BCA8EF16170980009990AA /* Frameworks */,
+				D8BCA8F016170980009990AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DFID;
+			productName = DFID;
+			productReference = D8BCA8F216170980009990AA /* DFID.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D8BCA8E916170980009990AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TH;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = D8BCA8EC16170980009990AA /* Build configuration list for PBXProject "DFID" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D8BCA8E716170980009990AA;
+			productRefGroup = D8BCA8F316170980009990AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D8BCA8F116170980009990AA /* DFID */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D8BCA8F016170980009990AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8BCA90116170980009990AA /* InfoPlist.strings in Resources */,
+				D8BCA90D16170980009990AA /* THViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D8BCA8EE16170980009990AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8BCA90316170980009990AA /* main.m in Sources */,
+				D8BCA90716170980009990AA /* THAppDelegate.m in Sources */,
+				D8BCA90A16170980009990AA /* THViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D8BCA8FF16170980009990AA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8BCA90016170980009990AA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D8BCA90B16170980009990AA /* THViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8BCA90C16170980009990AA /* en */,
+			);
+			name = THViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D8BCA90E16170981009990AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		D8BCA90F16170981009990AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D8BCA91116170981009990AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DFID/DFID-Prefix.pch";
+				INFOPLIST_FILE = "DFID/DFID-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D8BCA91216170981009990AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DFID/DFID-Prefix.pch";
+				INFOPLIST_FILE = "DFID/DFID-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D8BCA8EC16170980009990AA /* Build configuration list for PBXProject "DFID" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8BCA90E16170981009990AA /* Debug */,
+				D8BCA90F16170981009990AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8BCA91016170981009990AA /* Build configuration list for PBXNativeTarget "DFID" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8BCA91116170981009990AA /* Debug */,
+				D8BCA91216170981009990AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D8BCA8E916170980009990AA /* Project object */;
+}
