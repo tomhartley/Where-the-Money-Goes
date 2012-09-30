@@ -7,6 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D8A33534161727270045B6EA /* DFID2010Comparison.csv in Resources */ = {isa = PBXBuildFile; fileRef = D8A33533161727270045B6EA /* DFID2010Comparison.csv */; };
+		D8A33538161730520045B6EA /* parseCSV.m in Sources */ = {isa = PBXBuildFile; fileRef = D8A335371617287F0045B6EA /* parseCSV.m */; };
+		D8A33561161753490045B6EA /* dollar.png in Resources */ = {isa = PBXBuildFile; fileRef = D8A33557161753480045B6EA /* dollar.png */; };
+		D8A33562161753490045B6EA /* dollar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D8A33558161753480045B6EA /* dollar@2x.png */; };
+		D8A33563161753490045B6EA /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D8A33559161753480045B6EA /* icon.png */; };
+		D8A33564161753490045B6EA /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D8A3355A161753480045B6EA /* icon@2x.png */; };
+		D8A33565161753490045B6EA /* naira.png in Resources */ = {isa = PBXBuildFile; fileRef = D8A3355B161753480045B6EA /* naira.png */; };
+		D8A33566161753490045B6EA /* naira@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D8A3355C161753480045B6EA /* naira@2x.png */; };
+		D8A33567161753490045B6EA /* rand.png in Resources */ = {isa = PBXBuildFile; fileRef = D8A3355D161753490045B6EA /* rand.png */; };
+		D8A33568161753490045B6EA /* rand@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D8A3355E161753490045B6EA /* rand@2x.png */; };
+		D8A33569161753490045B6EA /* rupee.png in Resources */ = {isa = PBXBuildFile; fileRef = D8A3355F161753490045B6EA /* rupee.png */; };
+		D8A3356A161753490045B6EA /* rupee@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D8A33560161753490045B6EA /* rupee@2x.png */; };
+		D8A33571161757ED0045B6EA /* KGNoise.m in Sources */ = {isa = PBXBuildFile; fileRef = D8A33570161757ED0045B6EA /* KGNoise.m */; };
+		D8A335741617A4C80045B6EA /* bottomright.png in Resources */ = {isa = PBXBuildFile; fileRef = D8A335731617A4C80045B6EA /* bottomright.png */; };
+		D8A335761617A4DD0045B6EA /* topleft.png in Resources */ = {isa = PBXBuildFile; fileRef = D8A335751617A4DD0045B6EA /* topleft.png */; };
+		D8A3357A16184A190045B6EA /* watercolorpink.png in Resources */ = {isa = PBXBuildFile; fileRef = D8A3357916184A180045B6EA /* watercolorpink.png */; };
+		D8A3357E161875D80045B6EA /* THAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8A3357C161875D70045B6EA /* THAboutViewController.m */; };
+		D8A3357F161875D80045B6EA /* THAboutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8A3357D161875D70045B6EA /* THAboutViewController.xib */; };
 		D8BCA8F716170980009990AA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8BCA8F616170980009990AA /* UIKit.framework */; };
 		D8BCA8F916170980009990AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8BCA8F816170980009990AA /* Foundation.framework */; };
 		D8BCA8FB16170980009990AA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8BCA8FA16170980009990AA /* CoreGraphics.framework */; };
@@ -18,17 +36,38 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D8A33533161727270045B6EA /* DFID2010Comparison.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DFID2010Comparison.csv; sourceTree = "<group>"; };
+		D8A335361617287F0045B6EA /* parseCSV.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = parseCSV.h; sourceTree = "<group>"; };
+		D8A335371617287F0045B6EA /* parseCSV.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = parseCSV.m; sourceTree = "<group>"; };
+		D8A33557161753480045B6EA /* dollar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dollar.png; sourceTree = "<group>"; };
+		D8A33558161753480045B6EA /* dollar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dollar@2x.png"; sourceTree = "<group>"; };
+		D8A33559161753480045B6EA /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		D8A3355A161753480045B6EA /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		D8A3355B161753480045B6EA /* naira.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = naira.png; sourceTree = "<group>"; };
+		D8A3355C161753480045B6EA /* naira@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "naira@2x.png"; sourceTree = "<group>"; };
+		D8A3355D161753490045B6EA /* rand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rand.png; sourceTree = "<group>"; };
+		D8A3355E161753490045B6EA /* rand@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rand@2x.png"; sourceTree = "<group>"; };
+		D8A3355F161753490045B6EA /* rupee.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rupee.png; sourceTree = "<group>"; };
+		D8A33560161753490045B6EA /* rupee@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rupee@2x.png"; sourceTree = "<group>"; };
+		D8A3356F161757ED0045B6EA /* KGNoise.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KGNoise.h; sourceTree = "<group>"; };
+		D8A33570161757ED0045B6EA /* KGNoise.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KGNoise.m; sourceTree = "<group>"; };
+		D8A335731617A4C80045B6EA /* bottomright.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bottomright.png; sourceTree = "<group>"; };
+		D8A335751617A4DD0045B6EA /* topleft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = topleft.png; sourceTree = "<group>"; };
+		D8A3357916184A180045B6EA /* watercolorpink.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = watercolorpink.png; sourceTree = "<group>"; };
+		D8A3357B161875D70045B6EA /* THAboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THAboutViewController.h; sourceTree = "<group>"; };
+		D8A3357C161875D70045B6EA /* THAboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THAboutViewController.m; sourceTree = "<group>"; };
+		D8A3357D161875D70045B6EA /* THAboutViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = THAboutViewController.xib; sourceTree = "<group>"; };
 		D8BCA8F216170980009990AA /* DFID.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DFID.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8BCA8F616170980009990AA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D8BCA8F816170980009990AA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D8BCA8FA16170980009990AA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		D8BCA8FE16170980009990AA /* DFID-Info.plist */ = {isa = PBXFileReference; path = "DFID-Info.plist"; sourceTree = "<group>"; };
+		D8BCA8FE16170980009990AA /* DFID-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DFID-Info.plist"; sourceTree = "<group>"; };
 		D8BCA90016170980009990AA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D8BCA90216170980009990AA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D8BCA90416170980009990AA /* DFID-Prefix.pch */ = {isa = PBXFileReference; path = "DFID-Prefix.pch"; sourceTree = "<group>"; };
-		D8BCA90516170980009990AA /* THAppDelegate.h */ = {isa = PBXFileReference; path = THAppDelegate.h; sourceTree = "<group>"; };
+		D8BCA90416170980009990AA /* DFID-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DFID-Prefix.pch"; sourceTree = "<group>"; };
+		D8BCA90516170980009990AA /* THAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = THAppDelegate.h; sourceTree = "<group>"; };
 		D8BCA90616170980009990AA /* THAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = THAppDelegate.m; sourceTree = "<group>"; };
-		D8BCA90816170980009990AA /* THViewController.h */ = {isa = PBXFileReference; path = THViewController.h; sourceTree = "<group>"; };
+		D8BCA90816170980009990AA /* THViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = THViewController.h; sourceTree = "<group>"; };
 		D8BCA90916170980009990AA /* THViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = THViewController.m; sourceTree = "<group>"; };
 		D8BCA90C16170980009990AA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/THViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -77,11 +116,32 @@
 		D8BCA8FC16170980009990AA /* DFID */ = {
 			isa = PBXGroup;
 			children = (
+				D8A3357916184A180045B6EA /* watercolorpink.png */,
+				D8A335751617A4DD0045B6EA /* topleft.png */,
+				D8A335731617A4C80045B6EA /* bottomright.png */,
+				D8A33557161753480045B6EA /* dollar.png */,
+				D8A33558161753480045B6EA /* dollar@2x.png */,
+				D8A33559161753480045B6EA /* icon.png */,
+				D8A3355A161753480045B6EA /* icon@2x.png */,
+				D8A3355B161753480045B6EA /* naira.png */,
+				D8A3355C161753480045B6EA /* naira@2x.png */,
+				D8A3355D161753490045B6EA /* rand.png */,
+				D8A3355E161753490045B6EA /* rand@2x.png */,
+				D8A3355F161753490045B6EA /* rupee.png */,
+				D8A33560161753490045B6EA /* rupee@2x.png */,
+				D8A33533161727270045B6EA /* DFID2010Comparison.csv */,
+				D8A3356F161757ED0045B6EA /* KGNoise.h */,
+				D8A33570161757ED0045B6EA /* KGNoise.m */,
+				D8A335361617287F0045B6EA /* parseCSV.h */,
+				D8A335371617287F0045B6EA /* parseCSV.m */,
 				D8BCA90516170980009990AA /* THAppDelegate.h */,
 				D8BCA90616170980009990AA /* THAppDelegate.m */,
 				D8BCA90816170980009990AA /* THViewController.h */,
 				D8BCA90916170980009990AA /* THViewController.m */,
 				D8BCA90B16170980009990AA /* THViewController.xib */,
+				D8A3357B161875D70045B6EA /* THAboutViewController.h */,
+				D8A3357C161875D70045B6EA /* THAboutViewController.m */,
+				D8A3357D161875D70045B6EA /* THAboutViewController.xib */,
 				D8BCA8FD16170980009990AA /* Supporting Files */,
 			);
 			path = DFID;
@@ -151,6 +211,21 @@
 			files = (
 				D8BCA90116170980009990AA /* InfoPlist.strings in Resources */,
 				D8BCA90D16170980009990AA /* THViewController.xib in Resources */,
+				D8A33534161727270045B6EA /* DFID2010Comparison.csv in Resources */,
+				D8A33561161753490045B6EA /* dollar.png in Resources */,
+				D8A33562161753490045B6EA /* dollar@2x.png in Resources */,
+				D8A33563161753490045B6EA /* icon.png in Resources */,
+				D8A33564161753490045B6EA /* icon@2x.png in Resources */,
+				D8A33565161753490045B6EA /* naira.png in Resources */,
+				D8A33566161753490045B6EA /* naira@2x.png in Resources */,
+				D8A33567161753490045B6EA /* rand.png in Resources */,
+				D8A33568161753490045B6EA /* rand@2x.png in Resources */,
+				D8A33569161753490045B6EA /* rupee.png in Resources */,
+				D8A3356A161753490045B6EA /* rupee@2x.png in Resources */,
+				D8A335741617A4C80045B6EA /* bottomright.png in Resources */,
+				D8A335761617A4DD0045B6EA /* topleft.png in Resources */,
+				D8A3357A16184A190045B6EA /* watercolorpink.png in Resources */,
+				D8A3357F161875D80045B6EA /* THAboutViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -161,9 +236,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8A33538161730520045B6EA /* parseCSV.m in Sources */,
 				D8BCA90316170980009990AA /* main.m in Sources */,
 				D8BCA90716170980009990AA /* THAppDelegate.m in Sources */,
 				D8BCA90A16170980009990AA /* THViewController.m in Sources */,
+				D8A33571161757ED0045B6EA /* KGNoise.m in Sources */,
+				D8A3357E161875D80045B6EA /* THAboutViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,7 +320,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DFID/DFID-Prefix.pch";
 				INFOPLIST_FILE = "DFID/DFID-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = DFID;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -253,7 +331,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DFID/DFID-Prefix.pch";
 				INFOPLIST_FILE = "DFID/DFID-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = DFID;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -277,6 +355,7 @@
 				D8BCA91216170981009990AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
